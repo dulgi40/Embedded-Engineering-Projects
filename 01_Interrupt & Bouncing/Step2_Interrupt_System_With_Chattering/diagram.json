@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "신튼",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 80.2,
+      "left": -124.6,
+      "rotate": 180,
+      "attrs": { "color": "red", "xray": "1", "bounce": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 15.8,
+      "left": -124.8,
+      "attrs": { "color": "green", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "btn1:1.l", "esp:GND.1", "green", [ "h0" ] ],
+    [ "btn1:2.r", "esp:12", "green", [ "h0" ] ],
+    [ "btn2:2.r", "esp:GND.1", "green", [ "h0" ] ],
+    [ "btn2:1.l", "esp:14", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
