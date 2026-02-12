@@ -6,10 +6,12 @@
 組み込みシステムの基礎である割込み方式を習得するため、LED制御 + プッシュボタンISR システムを構築しました。実習の際、Wokwiシミュレータのボタン属性にある「Bounce」というオプションを発見し、「単なるボタン操作になぜ別個の属性が存在するのか」という疑問をきっかけに、その原理を深く学習することにしました。
 
 ![01  Interrupt Example](https://github.com/user-attachments/assets/bd545989-dc34-4047-97d7-7559ca210562)
+
 ▲ 割込み方式を活用した基本的なLED制御システムの動作確認。
 
 
 <img width="956" height="444" alt="02  Bounce Hakken" src="https://github.com/user-attachments/assets/e1817122-b782-4bc5-8d2d-3bbc6775f591" />
+
 ▲ Wokwi上で発見した「Bounce」オプション。これが学習のきっかけとなった。
 
 
