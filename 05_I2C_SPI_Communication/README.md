@@ -77,14 +77,14 @@ I2CおよびSPIの基本動作を理解するため、以下の検証を行っ�
 - LCDモジュールのアドレス検出成功
 - シリアルモニタおよびLCDに表示
 
-![/I2C_Address_Scanner](./I2C_Address_Scanner.gif)
+![I2C_Address_Scanner](./I2C_Address_Scanner.gif)
 
 ### SPI
 
 - 送信データと受信データが一致することを確認
 - 全二重通信動作を検証
 
-![SPI.gif]
+![SPI_Loopback_Test](./SPI_Loopback_Test.gif)
 
 ---
 
