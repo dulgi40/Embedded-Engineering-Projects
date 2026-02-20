@@ -1,4 +1,4 @@
-# 📑 03_UART_Control_System
+# 📑 04_UART_Control_System
 
 ## 📌 要約
 UART通信の理解および実習のため、各種入力を受け付けるUARTシステムを構成し、
